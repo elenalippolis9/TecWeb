@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title aria-live="assertive" aria-atomic="true">Homepage player - La tua avventura inizia quì! Inserisci il tuo nome nel campo 'nomeGiocatore' e clicca sul pulsante 'avviaPartita'!</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel = "shortcut icon" href = "./img/icon.png">
+    <link rel="shortcut icon" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/player.js"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body aria-live="assertive" aria-atomic="false">
+
+    <div id="player-interface" class="container">
+
+      <div class="start-container">
+        <div class="start">
+          <form action="#" class="start-form">
+            <h1>Sei pronto ad intraprendere <br>questa avventura?</br></h1>
+            <label for="nomeGiocatore">
+              <input id="nomeGiocatore" type="text" placeholder="Inserisci il tuo nickname" aria-required="true"></input>
+            </label>
+            <label for="avviaPartita">
+              <button class="btn button" id="avviaPartita" aria-label="Clicca questo pulsante per avviare la tua partita!" value="sdfghj">INIZIA</button>
+            </label>
+          </form>
+        </div>
+      </div>
+    
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <div class="logo">
+              <nav><p><img src = "./img/M-M.png" alt="logo"></a></p></nav>
+            </div>
+          </div>
+          <img src="./img/man.png" class="image" alt="" />
+        </div>
+      </div>
+    
+    </div>
+  </body>
+</html>
