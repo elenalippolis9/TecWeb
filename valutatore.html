@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Valutatore</title>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">   
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+        <link rel="stylesheet" type="text/css" href="./css/val_style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <link rel="shortcut icon" href="./img/icon.png">
+        <script src="./js/valFunctions.js"></script>
+    </head>
+
+<body id="page-top">
+    <div id="wrapper" class="row">
+        <nav class="navbar navbar-dark float-left col-1" id="sidebar">
+            <div class="container-fluid d-flex  py-3 px-2 mb-4" id="container-index" style="overflow: none">
+                <a class="navbar-brand d-flex flex-shrink-1 justify-content-start align-items-start align-content-start align-self-start flex-wrap justify-content-center sidebar-brand m-0" href="valutatore.html">
+                <div class="sidebar-brand-text"><p id="logo">M&M</p></div>
+                </a>
+                <hr class="sidebar-divider my-0" >
+                <ul class="nav navbar-nav text-light" id="accordionSidebar"  >
+                    <li class="nav-item" ><a class="nav-link active" href="valutatore.html" ><i class="fa fa-eye"></i><br><span> Monitora</span></a></li>
+                    <li class="nav-item"><a class="nav-link"  onclick=divStoria() style="cursor:pointer;"><i class="fa fa-pencil"></i><br>
+                        <span> Storia</span></a></li>
+                    
+                    <li class="nav-item"><a class="nav-link" id="notificaAiuto"></a></li>
+                    <li class="nav-item"><a class="nav-link "  id="notificaVal"> </a></li>
+                    <li class="nav-item"><a class="nav-link"  id="notificaTempo" > </a></li>
+                    <li class="nav-item">
+                        <select id="scegliStoria" >
+
+                        </select>
+                        </li>
+
+                    
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+
+
+        <div  id="content-wrapper" style="max-height:90%; overflow-y: scroll;" >
+            <div class="d-flex table-responsive col-11 float-right " id="content" style="justify-content: center; align-items: center; margin-top:50px;">
+            <div style="width: 100%;">
+                <div class="container-fluid flex-shrink-1 flex-wrap" id="content-2" style="width: 100%; " >
+                        <div class="card-body" style="background-color: transparent; ">
+                            <div class="table-responsive table mt-2" id="dataTable1" role="grid" aria-describedby="dataTable_info" style="color: rgb(31,26,26); background-color: transparent; ">
+                                <table class="table my-0" style="background-color: white">
+                                    <thead style="color: rgb(31,26,26);">
+                                        <tr style="color: rgb(212, 211, 211);background-color:rgba(60, 87, 77, 0.9)">
+                                            <th style="color: rgb(212, 211, 211);">Nome</th>
+                                            <th>Fase</th>
+                                            <th>Tempo (min)</th>
+                                            <th>Punti (classifica)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="demo" style="background-color: white">
+                                    </tbody>
+                                    
+                                </table>
+                                <div class="table-responsive table mt-2" id="dataTable2" role="grid" aria-describedby="dataTable_info" style="color: rgb(31,26,26);">
+                                    <table class="table my-0" style="background-color: white!important;">
+                                        <thead style="color: rgb(212, 211, 211);">
+                                            <tr id="giocatoriHeader" style="color: rgb(212, 211, 211); background-color:rgba(60, 87, 77, 0.9)">
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody id="giocatori" style="background-color: white; border-color: transparent ">
+                                        </tbody>
+                                        <br>
+                                    <br>
+                                    </table>
+                            </div>
+                 
+                        </div>
+                       
+                    
+                </div>
+
+                </div>
+
+                </div>
+            </div>
+            
+                      <!--chat-->
+                  <button class="open-button" onclick="openForm()">Chat</button>
+
+                  <div class="chat-popup" id="myForm">
+                    <div class="form-container">
+                      <h1>Chat</h1>
+                  
+                      <div class="dropdown" style="margin: auto; width:100%">
+                       <select class="custom-select  primo" id="scegliNome" style="width: 100%; margin-bottom:10px" >
+                           <!--Nomi presi da giocatori.JSON-->      
+                       </div> 
+                       <br>
+                      </select>
+                      <div style="height:100px" id="messages"><label for="msg"><b>Messaggi</b></label></div>
+                      <input placeholder="Type message.." name="rispostaChat" id="rispostaChat" required></input>
+                  
+                      <button type="button"  id="chat-submit" class="btn" onclick="sendMsg()">Manda</button>
+                      <button type="button" class="btn cancel" onclick="closeForm()">Chiudi</button>
+                    </div>
+                      </div>
+                    </div>
+
+   
+</body>
+</html>

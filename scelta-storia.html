@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Valutatore</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">   
+    <script src="node_modules/html2canvas/dist/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+   
+    <link rel="shortcut icon" href="./img/icon.png">
+    <link rel="stylesheet" type="text/css" href="./css/val_style.css" />
+</head>
+
+<body id="page-top">
+    <div id="wrapper" class="row">
+        <nav class="navbar flex-column navbar-dark navbar-expand-lg col-1" id="sidebar">
+            <div class="container-fluid d-flex flex-column py-3 px-2 mb-4" style="align-items: start !important;">
+                <a class="navbar-brand d-flex flex-shrink-1 justify-content-start align-items-start align-content-start align-self-start flex-wrap justify-content-center sidebar-brand m-0" href="valutatore.html">
+                <div class="sidebar-brand-text"><p id="logo">M&M</p></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="nav flex-column navbar-nav text-light" id="accordionSidebar" style="justify-content: center; align-items: center;">
+                    <li class="nav-item" ><a class="nav-link active" href="valutatore.html" style="text-align: center;"><i class="fa fa-eye"></i><br><span> Monitora</span></a></li>
+                    
+                     </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+
+        <nav class="navbar fixed-top justify-content-end" style="float:right !important; margin-right:0 !important; margin-left:auto  !important; width:80%; padding-right:0">
+            <ul class="nav justify-content-end" style="background: rgb(245, 245, 245, 0.5); margin-right:0; color:black !important">
+                <li class="nav-item"  style="float:right; color:whitesmoke">
+                    <div class="col button-top" id="aiuto" style="text-align: center; color:whitesmoke">
+                    </li>
+                    <li class="nav-item"  >
+                    <div class="col button-top" id="valutazione" style="text-align: center;">
+                    </li>
+                    <li class="nav-item" >
+                    <div class="col button-top" id="tempo" style="text-align: center;">
+                    </li>  
+            </ul>
+        </nav>
+
+
+        <div class="d-flex flex-column col-10" id="  content-wrapper" style="margin-top:20px !important;  margin-right: 0 !important; align-items: center; max-height:85vh; overflow-y:scroll" >
+            <div class="d-table" id="content" style="background: #be0b0017;">
+                <div class="container-fluid flex-shrink-1 flex-wrap" style="background: rgba(190,11,0,0);">
+                    <br><br>
+                    <div class="card-body"  >
+                            <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info" style="color: rgb(31,26,26); ">
+                                <table class="table my-0" id="dataTable">
+                                    <thead">
+                                        <tr style="color:  rgba(153, 180, 171, 0.9); background-color:rgba(0, 0, 0, 0.753)">
+                                            <th>Nome storia</th>
+                                            <th>Fascia d'età</th>
+                                            <th>Numero</th>
+                                            <th>Descrizione</th>
+                                            <th>Scegli</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tabella-storia" style="color: rgb(31,26,26);">
+                                       
+                                      
+                                    </tbody>
+                                    <tfoot>
+                                        <tr></tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="qr-wrapper" style="width:80%;" >
+                    <div id="qrcode-container" style="width:100%"  >
+
+                    </div>
+                </div>
+                
+                
+            </div>
+           
+            
+    </div>
+    <script src="./js/valFunctions.js"></script>
+    <script>
+function showQR(val) { 
+        var nomeStoria = val; 
+        $.ajax({
+            type: "post",
+            url: "/getQrCodeString",
+            data: {"nome" : nomeStoria },
+            success: function(QRcodeUrl) {
+                makeQR(QRcodeUrl, nomeStoria);
+            },
+            error: function(){
+                console.log("error");
+            }
+        });
+        
+}
+
+function makeQR(storage_name, storyName)
+{
+    
+    $(()=>{
+        var qrContainer = document.createElement("div");
+    qrContainer.setAttribute("id", "qrcode-container");
+    document.getElementById("qr-wrapper").replaceChild(qrContainer, document.getElementById("qrcode-container"));
+    var QRcode = new QRCode(document.getElementById("qrcode-container"), storage_name);
+    html2canvas(document.querySelector("#qrcode-container"), { ignoreElements: function (node) { return node.nodeName === 'IMG' }}).then((canvas) => { saveQR(canvas.toDataURL(), storyName + "-qrcode.png"); });
+})
+    
+}
+
+function saveQR(uri, filename) {
+
+    var link = document.createElement('a');
+
+    if (typeof link.download === 'string')
+    {
+        link.href = uri;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } 
+    else 
+    {
+        window.open(uri);
+    }
+}
+
+$.getJSON('./uploaded_data/publishedStories.json', function(data) {
+            var myJSON= JSON.stringify(data, null, 3);
+            var myObj = JSON.parse(myJSON);    
+            var tbody = document.getElementById('tabella-storia');
+
+        for (var i = 0; i < myObj["stories"].length; i++) {
+            var tr = "<tr>";
+            tr +=  
+            "<td class=nome>" + myObj["stories"][i]["nome"] + "</td>";
+            tr +=  
+            "<td>" + myObj["stories"][i]["eta"] + "</td>";
+            tr +=  
+            "<td>" + myObj["stories"][i]["numeroPersone"] + "</td>";
+            tr +=  
+            "<td>" + myObj["stories"][i]["descrizione"] + "</td>";
+            
+            
+            tr += " <td><a class='btn btn-primary QR-button' role='button' style='background: rgba(60, 87, 77, 0.9);' onclick=showQR(`" + myObj['stories'][i]['nome']+ "`) >Scegli</a></td></tr>";
+
+
+    /* We add the table row to the table body */
+    tbody.innerHTML += tr;
+
+    }
+       
+});
+
+
+         
+          
+          </script>
+</body>
+
+</html>
