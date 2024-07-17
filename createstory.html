@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Author's homepage</title>
+        <meta charset="utf-8">
+        <link rel = "shortcut icon" href = "./img/icon.png">
+        <link href="./css/createstory_style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+        <script type = "text/javascript" src = "./js/authorMaker.js"></script>
+        <script> $(() => { $("#scenes_list").sortable( { axis: "x" } ); }) </script>
+        <meta name="viewport" content="width = device.width, initial-scale = 1">
+    </head>
+
+    <body>
+
+        <div id="info-container"></div>
+
+        <div class = "header">
+            <nav>
+                <div class = "logo">
+                    <p><a href = "./author.html"><img src = "./img/M-M.png"></a></p>
+                </div>
+                <ul class = "shortcut">
+                    <li><a href = "./createstory.html">Crea storia</a></li>
+                    <li><a href = "./managestories.html">Gestisci storie</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id = "scenes_editor">
+            <p class = "msg_description">Benvenuto nella pagina in cui poter creare storie!<br>Ogni storia è formata da più <b><b><u>scene</b></b></u>, concatena più scene per creare la tua storia!</p>
+            <p class = "msg_description">La tua storia:</p>
+            <div id = "scenes_viewer">
+                <ul id = "scenes_list"></ul>
+            </div>
+            <div>
+                <button alt = "Aggiungi scena" id = "addScene" class = "button_s" type="button">Aggiungi scena</button>
+                <button alt = "Elimina scena corrente" id = "deleteScene" type = "button">-</button>
+                <button alt = "Aggiungi attività" id = "activity" class = "button_s" type="button">Aggiungi attività</button>
+            </div>
+            <div>
+                <button id = "info" class = "button_rect_b" type = "button">Informazioni</button>
+            </div>
+        </div>
+
+
+        <div id = "story"></div>
+
+        <div id="save-load">
+            <a class="button_circle_b" id="download"></a>
+            <a class="button_circle_b" id="upload">
+                <input id="upload-widget" name="uploadStory" type="file" style="opacity: 0.0; width: 100%; height:100%;"/>
+            </a>
+        </div>
+
+
+        <h2 id = "selected_scene"></h2>
+
+        
+        <div id = "data_stored" >
+            <div class = "Bcontainer_txt">
+                <h2>Dati scena precedentemente salvati:</h2>
+            </div>
+            <ul id = "oldData_list"></ul>
+        </div>
+
+        <div id = "editor_form">
+            <div class = "Wcontainer_txt">
+                <h2>Nuovi dati :</h2>
+            </div>
+            <div id="activity_container">
+                <div id="activity_settings"></div>
+            </div>
+            <div id="formContainer">
+                <div id = "first_container"></div>
+                <div id = "second_container"></div>
+                <div id = "button_container"></div>
+            </div>
+        </div>
+
+        <div id = "old_edit"></div>
+     
+        <div id = "preview">
+            <div class = "container_txt">
+                <h2><b>Clicca l'anteprima delle scene per interagire con esse!</b></h2>
+                <p class = "msg_description">Anteprima scena con valori attuali :</p>
+            </div>
+            <div id = "preview_container">
+                <div id = "preview_viewerA" class="previewViewer">
+                        <div id = "chatA" class = "skinChat"></div>
+                        <div id = "helpA" class = "skinHelp"></div>
+                    <div id = txtA >
+                        <p id = "text_previewA"></p>
+                    </div>
+                </div>
+                <div class = "container_txt">
+                    <p class = "msg_description"><b>* * * * * * * * * * *</b><br>Anteprima scena con valori precedentemente salvati :</p>
+                </div>
+                <div id = "preview_viewerB" class="previewViewer">
+                        <div id = "chatB" class = "skinChat"></div>
+                        <div id = "helpB" class = "skinHelp"></div>
+                    <div id = txtB >
+                        <p id = "text_previewB"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="skin-editor-and-story-info">
+            <h2><b>Personalizzazione tasti</b></h2>
+            <div id="skin_box">
+                <p>
+                    Skin relativa al tasto chat : 
+                    <input id="chatSkin" type="file" accept=".png, .jpg" name="data">
+                    Posizione : 
+                    <select id="chatPosition">
+                        <option>Angolo in alto a sinistra</option>
+                        <option>Angolo in alto a destra</option>
+                        <option>Angolo in basso a destra</option>
+                        <option>Angolo in basso a sinistra</option>
+                    </select>
+                </p>
+                <p>
+                    Skin relativa al tasto di aiuto : 
+                    <input id="helpSkin" type="file" accept=".png, .jpg" name="data">
+                    Posizione : 
+                    <select id="helpPosition">
+                        <option>Angolo in alto a destra</option>
+                        <option>Angolo in alto a sinistra</option>
+                        <option>Angolo in basso a destra</option>
+                        <option>Angolo in basso a sinistra</option>
+                    </select>
+                </p>
+                <b>*************************</b>
+                <p>Skin relativa al contenitore di testo : <input id="textSkin" type="file" accept=".png, .jpg" name="data"></p>
+            </div>
+            <h2><b>Informazioni storia</b></h2>
+            <div id="story_info">
+                <p>Fascia di età :</p>
+                <input id="età" type="text">
+                <p>Numero di persone che possono giocare :</p>
+                <input id="nPers" type="text">
+                <p>Descrizione storia :</p>
+                <input id="descr" type="text" style="margin-bottom: 20px;">
+            </div>
+        </div>
+
+    </body>
+</html>
