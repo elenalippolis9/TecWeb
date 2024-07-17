@@ -1,0 +1,337 @@
+
+.row{
+    flex-wrap: nowrap;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+
+.demo{
+    background-color: white;
+}
+.giocatori{
+    background-color: white!important;
+}
+.btn-outline-warning{
+    text-decoration: none;
+    font-size: smaller;
+    padding: 2px 5px;
+    width: 80px;
+}
+select, option{
+    height: 30px;
+    border-radius: 6px!important;
+}
+#singlemsg{
+    text-align: left;
+    margin-top:2px;
+    border-radius: 5px;
+}
+#messages{
+    overflow-y:scroll;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border-radius: 10px;
+  z-index: 9;
+}
+#singlemsg{
+    background-color: white ;
+    margin-top: 4px;
+    margin-bottom:2px;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color:  rgba(255, 255, 255, 0.692);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #ffffff;
+  resize: none;
+  height: 30px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+#sidebar{
+    display: flex;
+	flex-direction: column;
+}
+
+@media(max-width: 566px){
+    nav{
+        display:flex;
+        flex-direction: row!important;
+    }
+    #sidebar{
+        max-width:6rem!important;
+    }
+    #sidebar ul{
+        flex-direction: row!important;
+    }
+    #accordionSidebar{
+        max-width: 4rem!important;
+    }
+    .nav-item{
+        max-width: 100%;
+    }
+    .nav-item button{
+        max-width: 100%;
+    }
+   
+    }
+/*
+@media(max-width: 566px) {
+   
+    #sidebar
+    {
+        max-width:6rem !important;
+        margin-right: 0;
+        margin-left: 0;
+        margin:0;
+        height:100%;
+    }   
+    i{
+        width: smaller !important;
+    }
+    a.nav-link{
+        font-size: smaller;
+    }
+    .nav-link{
+        text-align: center;
+    }
+
+    #logo{
+        font-size: smaller;
+        margin-left: 0 !important;
+    }
+    #wrapper{
+        max-width:100%;
+    }
+        html{
+            height:100%;
+            max-width: 100%;
+        }
+        
+        #sidebar{
+            width:1rem;
+            height: 100%;
+        }
+        .table{
+            float:right;
+        }
+        
+
+     }
+     */
+
+
+.card-header{
+
+background-color: transparent;
+}
+.img-val{
+    width:80%;
+}
+.card-body{
+    background-color:transparent;
+}
+.button-top{
+    vertical-align: middle;
+}
+#card-header-index{
+    height: auto !important;
+}
+#page-top{
+    height: 100%;
+}
+#wrapper{
+    height:100%;
+}
+#content-wrapper{
+    background-color: transparent;
+    justify-content: right !important;
+    margin-right:0;
+    align-items: flex-end;
+    align-items: center; 
+    margin-right:0!important;
+    width:90% 
+}
+#accordionSidebar{
+    overflow: none;
+}
+#notificaAiuto, #notificaVal, #notificaTempo{
+    color: #024959;
+}
+#content-2{
+    background:transparent; 
+    margin-top: 0 !important;
+}
+.d-table{
+    background-color: transparent;
+}
+.card{
+    background-color:transparent;
+}
+#sidebar{
+    background-color:rgba(60, 87, 77, 0.9); 
+    display: inline-block;
+    width:7em !important;
+    height:100%!important;
+    overflow: none;
+}
+#scegliStoria{
+    width:4rem;
+}
+
+#scegliStoria > option{
+    max-width: 50px !important;
+}
+.table-img{
+    width:100px;
+}
+.table{
+    background-color:transparent !important;
+    border-radius:5px;
+}
+.btn{
+    line-height: 1.5;
+    text-decoration:none;
+}
+.navbar{
+    padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+}
+.col{
+    flex: 1 0 0%;
+}
+.col-1{
+    flex: 0 0 auto!important;
+    max-width:8em!important;
+    
+}
+#bottoniNotifiche{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    
+}
+#bottoni-notifiche{
+    float:right !important; 
+    margin-right:0 !important; 
+    margin-left:auto  !important; 
+    width:80%; 
+    padding-right:0
+}
+#nav-1{
+    background: rgb(245, 245, 245, 0.5); 
+    margin-right:0; 
+    color:black !important
+}
+#nav-2{
+    float:right; color:whitesmoke;
+}
+#aiuto, #valutazione, #tempo{
+    text-align: center; 
+    color:whitesmoke
+}
+#logo{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+
+}
+button, input{
+    overflow: auto;
+}
+    
+i{
+    font-size: 26px!important;
+}
+
+nav.navbar.fixed-top{
+    margin-left: auto!important;
+} 
+body{
+    background-image: url('../img/sfondo-3.jpg');
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh!important;
+    width: 100vw;
+    position:fixed;
+}   
+td{
+    background-color:rgba(255, 255, 255, 0.9) !important;
+}
+tr{
+    border-radius:5px!important;
+}
+a{
+    text-align: center;
+}
+#container-index{
+    align-items: start !important;
+}
+#accordionSidebar{
+    justify-content: center; 
+    align-items: center;
+}
+.clear{
+    clear: both;
+}
+#content{
+    align-items:center;
+}
