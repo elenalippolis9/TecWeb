@@ -1,0 +1,16 @@
+{
+  "stories": [
+    {
+      "nome": "spazio",
+      "eta": "7-10 anni",
+      "numeroPersone": "1",
+      "descrizione": "La storia tratta di un viaggio nello spazio per salvare l’equipaggio bloccato attraverso una avventura nello spazio."
+    },
+    {
+      "nome": "prova",
+      "eta": "11-14 anni",
+      "numeroPersone": "1",
+      "descrizione": "La storia tratta di una avventura all'interno di una piramide alla scoperta dei simboli della civiltà egizia."
+    }
+  ]
+}
