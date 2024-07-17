@@ -1,0 +1,35 @@
+{
+  "name": "valutatore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "file": "^0.2.2",
+    "fs": "0.0.1-security",
+    "html2canvas": "^1.0.0-rc.7",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "multer": "^1.4.2",
+    "multiparty": "^4.2.2",
+    "node": "^15.8.0",
+    "node-fetch": "^2.6.1",
+    "qrcode": "^1.4.4",
+    "upload": "^1.1.1",
+    "uuid": "^8.3.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

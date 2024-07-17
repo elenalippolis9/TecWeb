@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Author's homepage</title>
+        <meta charset="utf-8">
+        <link rel = "shortcut icon" href = "./img/icon.png">
+        <link href="./css/managestories_style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+        <script src="node_modules/html2canvas/dist/html2canvas.min.js"></script>
+        <script type = "text/javascript" src = "./js/manageStories.js"></script>
+        <meta name="viewport" content="width = device.width, initial-scale = 1">
+    </head>
+
+    <body>
+        <div class = "header">
+            <nav>
+                <div class = "logo">
+                    <p><a href = "./author.html"><img src = "./img/M-M.png"></a></p>
+                </div>
+                <ul class = "shortcut">
+                    <li><a href = "./createstory.html">Crea storia</a></li>
+                    <li><a href = "./managestories.html">Gestisci storie</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1>Da quì potrai gestire le storie salvate</h1>
+        <h2>Pubblica, duplica o elimina!</h2>
+        <b id="msg" style="display: none;">Non sono presenti storie caricate nel server</b>
+        <div id=table-container>
+            <table id = "uploaded_stories" class="content-table"></table>
+        </div>
+        <div id="qrcode-container"></div>
+    </body>
+
+</html>
