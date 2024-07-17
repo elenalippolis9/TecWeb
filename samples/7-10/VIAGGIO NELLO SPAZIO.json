@@ -1,0 +1,881 @@
+{
+  "Info": [
+    "7-10 anni",
+    "1",
+    "La storia tratta di un viaggio nello spazio per salvare l’equipaggio bloccato attraverso una avventura nello spazio."
+  ],
+  "Skin": [
+    "chat-1612307649730.png",
+    "Angolo in basso a sinistra",
+    "info-1612307655229.png",
+    "Angolo in basso a destra",
+    "skin_testo-1612307677229.png"
+  ],
+  "scena-0": {
+    "Testo scena": [
+      "Marco è un bambino tenace di 9 anni che ha un sogno: diventare astronauta. Non si limita a fantasticare e a guardare le stelle fuori dalla finestra ma si rimbocca le maniche e decide di costruirsi un’astronave.  Ma non può farsi scoprire dalla mamma, aiutiamolo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612306864072.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-1": {
+    "Testo scena": [
+      "Marco sa benissimo come si fa una navicella e quello che gli occorre: una rampa di lancio, le ali e i razzi.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612306902850.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-0": {
+    "Testo scena": [
+      "Questi materiali può procurarseli facilmente cercando con un po’ di attenzione nel garage, nella sua cameretta, nel frigorifero. Cosa utilizzeresti per costruire la navicella?",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612306994776.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "Scattagli una foto senza farti scoprire!",
+      "Caricamento file",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-1": {
+    "Testo scena": [
+      "Ed eccolo grintoso all’azione, indossa il casco, si posiziona sulla rampa di lancio, deve soltanto attivare la navicella, ma avrà bisogno del tuo aiuto!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Premi il tasto verde",
+      "Selezione elemento",
+      [
+        {
+          "Risposta": "botton1-1612307625856.png"
+        },
+        "botton2-1612307628692.png",
+        "botton3-1612307631050.png"
+      ],
+      "3",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non abbiamo abbastanza potenza! Inseriamo il risultato per poter partire!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612308015130.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#93cadd",
+          "Tipologia attivita": [
+            "Dobbiamo inserire il codice di emergenza: «46+88»",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-2": {
+    "Testo scena": [
+      "Stiamo spiccando il volo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612308046988.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-3": {
+    "Testo scena": [
+      "Andiamo a nasconderci in cameretta, così potremo parlare con Marco senza farci scoprire!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612308080067.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-2": {
+    "Testo scena": [
+      "Marco si è accorto che la Terra è per metà illuminata e per metà in ombra.  Il sole riscalda ed illumina il nostro pianeta, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "sole-1612308160189.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "nella metà illuminata secondo te è giorno oppure notte?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Giorno"
+        },
+        "Notte"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non su tutta la Terra è giorno oppure notte!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "",
+          "Video scena": "astri-1612308260137.mp4",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "In questo momento dove vivi è giorno o notte?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "2",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-4": {
+    "Testo scena": [
+      "Quando da un lato della Terra è giorno dall’altra parte è notte! Fantastico!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612308332887.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-3": {
+    "Testo scena": [
+      "Abbiamo trovato un amico nello spazio! Se rispondi velocemente a questa domanda otterrai un punteggio bonus! La sua astronave sembra molto simile a quella di Marco, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "differenze-1612308404913.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#FFFFFF",
+    "Tipologia attivita": [
+      "Quante differenze riesci a trovare?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-5": {
+    "Testo scena": [
+      "Marco ora finalmente vede tutti i pianeti che orbitano attorno al Sole! Ma si trova molto lontano, proviamo ad andare in salotto, per non perdere il segnale!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612308436563.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-4": {
+    "Testo scena": [
+      "Non siamo i soli a vedere il Sole!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "pianeti-1612308567390.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Quanti pianeti girano intorno al Sole?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "8"
+        },
+        "4",
+        "9",
+        "6"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Qualcosa sta venendo verso di noi? Attiviamo i razzi per sicurezza! Ma per attivarli abbiamo bisogno della chiave d’accesso, ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "triangoli-1612308636127.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "è il numero di triangoli in questa figura!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "attività-5": {
+    "Testo scena": [
+      "Sono tutti di dimensioni diverse questi pianeti, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "mettiamoli in ordine di grandezza!",
+      "Selezione ordinata",
+      [
+        {
+          "Risposta": ""
+        },
+        "giove-1612308781619.png",
+        "saturno-1612308791981.png",
+        "urano-1612308811829.png",
+        "nettuno-1612308788811.png",
+        "terra-1612308809115.png",
+        "venere-1612308816401.png",
+        "marte-1612308781631.png",
+        "mercurio-1612308781633.png"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-6": {
+    "Testo scena": [
+      "Marco ha studiato molto bene ed ha riconosciuto che i primi 4 pianeti vicini al Sole sono: Mercurio, Venere, Terra e Marte. Hai notato che i pianeti hanno tutti una forma sferica? Riusciresti a trovare un oggetto con la stessa forma? ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "primi4-1612308900201.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Scattagli una foto!",
+      "Caricamento file",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-6": {
+    "Testo scena": [
+      "Dopo i primi quattro pianeti ci sono tanti pezzetti di roccia, Marco ricorda di aver letto il loro nome: si chiamano Asteroidi!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "15-1612308920494.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-7": {
+    "Testo scena": [
+      "Marco si è preparato tantissimo prima di partire, ma non riesce a ricordare quale sia ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "pianeti-1612309016918.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "il pianeta più piccolo del sistema solare?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Mercurio"
+        },
+        "Venere",
+        "Nettuno",
+        "Marte"
+      ],
+      "8",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Diamo una occhiata più da vicino, i pianeti più piccoli sono quelli vicino al Sole, aiutati con l’enciclopedia, la trovi nella libreria! ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "primi4-1612309167179.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Quale tra questi sembra essere il più piccolo?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-7": {
+    "Testo scena": [
+      "Mercurio è anche il pianeta più vicino al Sole. Chissà che caldo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612309185621.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-8": {
+    "Testo scena": [
+      "I 4 pianeti più lontani dal Sole Marco li conosce bene, sono: Giove, Saturno, Urano e Nettuno. ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "ultimi4-1612309239104.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "In questo gruppo possiamo notare il più grande tra i pianeti, qual è?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Giove"
+        },
+        "Marte",
+        "Terra",
+        "Nettuno"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Ci potrebbe venire in aiuto l’enciclopedia «…», a pagina … si parla di una grande pianeta!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612309534897.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#93cadd",
+          "Tipologia attivita": [
+            "Di che pianeta si tratta?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "3",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-8": {
+    "Testo scena": [
+      "È veramente gigantesco, è persino 11 volte la grandezza della nostra Terra!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612309534897.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-9": {
+    "Testo scena": [
+      "Marco vuole saperne di più e vuole allontanarsi ancora un po’! Ma che freddo! Marco ha pensato davvero a tutto, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "cosa dovrebbe attivare per potersi scaldare?",
+      "Selezione elemento",
+      [
+        {
+          "Risposta": "fire-1612309640049.png"
+        },
+        "ice-1612309642952.png"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Credo che un po’ di calore farebbe meglio a Marco e anche alla sua navicella, sembra che il freddo la stia bloccando, gli deve ridare energia. Ma per farlo dobbiamo inserire un codice composto da: ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612309687443.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#93cadd",
+          "Tipologia attivita": [
+            "la prima cifra sta per il numero di pianeti del sistema solare, la seconda cifra è il numero delle lettere della parola “Terra” e la terza cifra sono gli anni di Marco.",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-9": {
+    "Testo scena": [
+      "Marco ha notato qualcosa nell’oscurità, un piccolo pianeta. Plutone, il pianeta nano!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "plutone-1612309732599.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-10": {
+    "Testo scena": [
+      "Marco, incantato dalla bellezza del piccolo pianeta, è stato risvegliato da un rumore. È il radar! Qualcosa si sta avvicinando alla sua navicella!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "comete2-1612309761993.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Quanti strani oggetti vedi nello spazio?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "5",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-10": {
+    "Testo scena": [
+      "Guardandole meglio, sono comete! Sono fatte di rocce e ghiaccio!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "comete-1612309899859.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-11": {
+    "Testo scena": [
+      "Marco non ha portato con lui un orologio, andiamo in cucina a controllare che ore sono. Rispondendo correttamente a questa domanda avrai 2 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "orologio-1612309899862.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Sapresti dire che ore sono su questo orologio?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "10:15"
+        },
+        "3:10",
+        "3:45",
+        "10:30"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "orologio-1612309899862.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Chiedi un aiuto alla mamma, ma attento a non parlargli della missione di Marco, è top secret!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "2",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-11": {
+    "Testo scena": [
+      "È tardissimo! Deve assolutamente tornare a casa!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612309899870.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-12": {
+    "Testo scena": [
+      "Mentre Marco si diverte ad inseguire le comete dirette verso il Sole nota che attorno alla Terra c’è uno strato d’aria diverso, più caldo! Si chiama Atmosfera e si comporta come una serra, che mantiene costante la temperatura per la nostra vita.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "atmosfera-1612309921773.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Possiedi una serra o delle piantine? Scattagli loro una foto!",
+      "Caricamento file",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-13": {
+    "Testo scena": [
+      "Marco sa che le aziende e i disboscamenti causati dall’uomo stanno rovinando la protezione della Terra, provocando l’aumento delle temperature.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "serra-1612309958613.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Cosa consigli di migliorare? Scrivici cosa si potrebbe fare per aiutare l’ambiente!",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-12": {
+    "Testo scena": [
+      "Marco ora deve tornare a casa, la sua mamma sarà molto in pensiero per lui!  Questa avventura è stata davvero affascinante, spero che ti sia divertit* e abbia scoperto qualcosa di nuovo! Non dimenticarti di esprimere un desiderio quando vedi una stella cadente, alla prossima!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612309899870.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#93cadd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  }
+}

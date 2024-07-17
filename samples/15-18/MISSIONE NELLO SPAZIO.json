@@ -1,0 +1,1048 @@
+{
+  "Info": [
+    "15-18 anni",
+    "1",
+    "La storia tratta di un viaggio nello spazio per salvare l’equipaggio bloccato scoprendo come si vive nello spazio."
+  ],
+  "Skin": [
+    "chat-1612113727639.png",
+    "Angolo in basso a destra",
+    "info-1612113730163.png",
+    "Angolo in basso a sinistra",
+    "skin_testo-1612113736110.png"
+  ],
+  "scena-0": {
+    "Testo scena": [
+      "“Sono Samantha, la missione a cui fatto parte si chiama Futura, doveva avere una durata di circa 200 giorni nello spazio. Io e miei colleghi però siamo rimasti bloccati nell’ISS. Abbiamo bisogno del tuo aiuto per poter tornare a casa. È una missione top secret!“  Devo salvarla! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612113606470.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-1": {
+    "Testo scena": [
+      "Gli aspiranti astronauti devono superare un corso annuale di addestramento base, dovrò fare un addestramento accelerato! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612113912967.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-0": {
+    "Testo scena": [
+      "Samantha ha detto di trovarsi sull’ISS, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "ISS-1612113961532.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#a6a6a6",
+    "Tipologia attivita": [
+      "per cosa sta l’acronimo I.S.S.? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "stazione spaziale internazionale "
+        },
+        "Istituzione spaziale sotterranea ",
+        "istituto spaziale statunitense "
+      ],
+      "5",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-2": {
+    "Testo scena": [
+      "È una stazione spaziale internazionale, dove avvengono tantissime scoperte di diversi ambiti della scienza! Proprio nello spazio!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114068485.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-1": {
+    "Testo scena": [
+      "La logica e la matematica per un astronauta sono essenziali! Un esempio:",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "Un custode dello zoo ha cibo a sufficienza per sfamare 7 leoni per 78 giorni. Quanto durerebbe il cibo se ci fossero 21 leoni?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "26"
+        },
+        "30",
+        "28",
+        "27"
+      ],
+      "10",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "26 giorni.  Per partire dobbiamo essere pronti o non potremo mai superare tutte quelle prove! Proviamo con un altro: Questa domanda è davvero difficile, se rispondi correttamente otterrai un punteggio bonus!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612114132339.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#d9dddd",
+          "Tipologia attivita": [
+            "A+B=C, AxB=C, C-B=B, Ax4=B il codice sono le 4 cifre ABCD in questo ordine!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "9",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-3": {
+    "Testo scena": [
+      "Mi sento pronto, ma oltre alla mente anche il corpo deve essere pronto!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-2": {
+    "Testo scena": [
+      "Per capire come funzionano le passeggiate spaziali dovrò fare dei test sott’acqua, con una riproduzione a grandezza reale dell’ISS. ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "triangoli-1612114241837.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Risolvere dei problemi di manutenzione sotto stress è essenziale!",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "7"
+        },
+        "9",
+        "10",
+        "11"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Si è bloccata la porta come farò quando sarò sulla ISS se mi dovesse succedere la stessa cosa? ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "forme-1612114290340.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Proviamo con il codice di sicurezza!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "4",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-4": {
+    "Testo scena": [
+      "Dovrò stare attento una volta arrivato all’ISS, sbagliare può diventare davvero pericoloso!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-3": {
+    "Testo scena": [
+      "La mia navicella parte dal cosmodromo di Bajkonur, dove partirono i più grandi. Ma dovrò cercare di non farmi scoprire, non parlarne con nessuno!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "partenza-1612114424514.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Ricordi il nome della prima navicella che partì da lì?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Sputnik 1"
+        },
+        "Explorer 1",
+        "Luna 1",
+        "Venera 1"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-5": {
+    "Testo scena": [
+      "Sono ben 50 anni che l’uomo ha l’onore di viaggiare nello spazio, i primi furono Jurij Gagarin e Valentina Tereškova negli anni 60!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "partenza-1612114424514.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-4": {
+    "Testo scena": [
+      "Per entrare in orbita ci vogliono meno di 9 minuti. Nelle 6 ore successive dovrò farò 4 orbite per arrivare ISS.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "navicella-1612114424527.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Posso portare alcuni effetti personali, cosa mi può servire? Cosa porteresti con te di più caro?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-5": {
+    "Testo scena": [
+      "I pianeti del nostro pianeta Solare hanno tutte dimensioni diverse.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Ordiniamoli per grandezza.",
+      "Selezione ordinata",
+      [
+        {
+          "Risposta": ""
+        },
+        "giove-1612114521101.png",
+        "marte-1612114523596.png",
+        "mercurio-1612114527605.png",
+        "nettuno-1612114530495.png",
+        "saturno-1612114533891.png",
+        "terra-1612114536408.png",
+        "urano-1612114538762.png",
+        "venere-1612114542401.png"
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-6": {
+    "Testo scena": [
+      "L’ISS è composta da svariati spazi cilindrici pressurizzati, alcuni sono veri e propri laboratori. Un braccio meccanico prenderà la mia navicella e mi permetterà di entrare. ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "navicella-1612114424527.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Proverò cosa significa “assenza di peso”, in maniere scientifica chiamato? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Microgravità"
+        },
+        "Assenza di gravità",
+        "Assenza di peso",
+        "Gravità annullata"
+      ],
+      "5",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-6": {
+    "Testo scena": [
+      "Il termine esatto è Microgravità, una sensazione meravigliosa ma in parte che può spaventare! Non devo farmi prendere dal panico!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114621826.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-7": {
+    "Testo scena": [
+      "Ci sono due barre della navicella che montano due ruote di differenti dimensioni ciascuna. Tra le due barre è legata una cintura di sicurezza. Rispondendo velocemente a questa domanda otterrai 5 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "quiz1-1612114677291.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#a6a6a6",
+    "Tipologia attivita": [
+      "La domanda è: a quale delle due ruote deve essere legata la cintura per fare in modo che la barra \"x\" ruoti più velocemente? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "1-3"
+        },
+        "2-4",
+        "1-4",
+        "2-3"
+      ],
+      "10",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no mi sono incastrato! Vedo delle ruote di diverse dimensioni, due hanno lo stesso diametro, la numero 1 e 2. ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "quiz2-1612114721431.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#a6a6a6",
+          "Tipologia attivita": [
+            "Se la numero 1 viene fatta ruotare, a che velocità andrà la numero 2?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "9",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "attività-8": {
+    "Testo scena": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Per entrare proviamo, a premere il tasto corretto!",
+      "Selezione elemento",
+      [
+        {
+          "Risposta": "open-1612114788408.png"
+        },
+        "allert-1612114791522.png",
+        "exit-1612114794420.png"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no siamo bloccati fuori! Vediamo se completando questi cavi riesco comunque ad entrare!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "strade-1612114853383.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Quale tra questi è quello corretto?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "4",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-7": {
+    "Testo scena": [
+      "Sono entrato!  Aiutiamo Samantha e il suo equipaggio!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114873489.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-9": {
+    "Testo scena": [
+      "Dovrò essere veloce a recuperare Samantha e il resto dell’equipaggio dall’ISS, perché i ricercatori hanno scoperto che ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114908064.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "le cellule del sistema immunitario, in assenza di peso cambiano in maniera: ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "negativa"
+        },
+        "positiva"
+      ],
+      "5",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-8": {
+    "Testo scena": [
+      "Purtroppo negativa, non sono addestrato per stare molto nello spazio quindi dovremo essere veloci quanto più possibile!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-10": {
+    "Testo scena": [
+      "Nonostante, volessi tornare subito a casa devo rimanere un giorno intero prima di poter tornare.  L’atrofia muscolare e la perdita di massa ossea nello spazio è rapidissima, per contenere questi problemi ho dovuto fare attività resistiva, come andare in palestra! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "workout-1612115092720.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#a6a6a6",
+    "Tipologia attivita": [
+      "Cosa si intende per perdita di massa ossea?  ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "osteoporosi accelerata"
+        },
+        "perdita di peso",
+        "cambiamento in consistenza delle ossa"
+      ],
+      "8",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "È una sorta di osteoporosi molto rapida! Ho bisogno di riprendere le forze, con una tavoletta di cioccolato magari! ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "cioccolata-1612115092721.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "Vorrei dividere tutti e 30 i quadretti per darne qualcuno anche al resto dell’equipaggio, quante volte la dovrò rompere?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-9": {
+    "Testo scena": [
+      "Devo assolutamente ripartire, le loro condizioni potrebbero peggiorare in maniera irreversibile!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-11": {
+    "Testo scena": [
+      "Da tanti giorni gli astronauti sono bloccati e le scorte ormai scarseggiano per fortuna ho portato cibo e acqua con me! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612115119526.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "Per avere l’acqua gli astronauti riciclano tutto dall’umidità nell’aria fino a?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "all’urina"
+        },
+        "produrla da zero",
+        "alla saliva"
+      ],
+      "9",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-10": {
+    "Testo scena": [
+      "L’urina! Incredibile, possono farla diventare acqua potabile da bere o per reidratare il cibo.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-12": {
+    "Testo scena": [
+      "Il cibo che ho è in sacchetti disidratati, gli oggetti nello spazio devono essere estremamente funzionali. ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "pixel-1612115187574.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Gli astronauti sono esausti e hanno davvero bisogno di mangiare, quanti sacchetti distingui? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "7"
+        },
+        "10",
+        "5",
+        "12"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Forse mi dovrei dare una svegliata, per ringraziarmi del cibo gli astronauti mi hanno dato l’unico cibo che gli rimaneva, una bevanda erogata ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "espresso-1612115279956.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#ffffff",
+          "Tipologia attivita": [
+            "da una macchina che gli era stata inviata proprio dall’Italia!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "6",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-11": {
+    "Testo scena": [
+      "Finalmente possono mangiare!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-13": {
+    "Testo scena": [
+      "È importante avere dei momenti di svago e collettività, e nonostante fossero rimasti così tanto tempo soli nello spazio non si sono mai persi d’animo grazie al lavoro di squadra! Mi hanno proposto un enigma, a loro piacciono molto li tiene con la mente occupata!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "cubo-1612115279958.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Qual è il numero minimo di fil di ferro necessario per costruire il cubo?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "9",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-12": {
+    "Testo scena": [
+      "È difficile stare nello spazio, ma temo che il ritorno non sarà una passeggiata!   E non potrò chiedere aiuto a nessuno perché nessuno deve sapere di questa missione.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612115292133.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-14": {
+    "Testo scena": [
+      "Tornati sulla terra molti degli astronauti riscontravano diversi problemi fisici. Questa domanda ti permettere di avere un punteggio bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612115341659.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "Quali problemi possono avere?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Tutte e 3"
+        },
+        "sensibilità a germi e batteri",
+        "indebolimento dei muscoli",
+        "presbiopia"
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-13": {
+    "Testo scena": [
+      "Purtroppo tutte e 3, il corpo subisce una sorta di invecchiamento sotto diversi aspetti. Dovrò essere molto bravo ad atterrare, sono davvero deboli!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-15": {
+    "Testo scena": [
+      "L’ISS per ora gira soltanto sulla nostra orbita, ma Samantha e il resto della squadra non demordono e nonostante non siamo ancora arrivati sulla Terra sarebbero già pronti a ripartire! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "Nel futuro cosa vorrebbe arrivare a studiare?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Luna"
+        },
+        "Marte",
+        "Venere",
+        "Giove"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Il prossimo passo sarà la Luna, ma chi lo sa se un giorno riusciremo ad andare più lontano! Gli astronauti devono essere sempre pronti alle difficoltà!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "batteri-1612115438733",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Se un piccolo organismo lunare si sdoppiasse ogni secondo riempendo il vaso, quanto tempo impiegherebbero 2 organismi a riempire il vaso?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "8",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-14": {
+    "Testo scena": [
+      "Non sono per niente spaventati!  Incredibili, sono dei veri eroi!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612115463320.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-16": {
+    "Testo scena": [
+      "L’ISS Samantha la definisce “l’avamposto dell’umanità nello spazio”, perché un posto dove si può andare a lavorare, a fare ricerca e a vivere. Ma non dimentichiamoci mai di voler bene al nostro pianeta, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612115488060.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "cosa consiglieresti per migliorare la situazione attuale? Scrivici cosa si potrebbe fare per aiutare l’ambiente!",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-15": {
+    "Testo scena": [
+      "Missione compiuta, forse questa avventura mi ha fatto capire di essere pronto a questo lavoro! Alla prossima!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612114132339.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9dddd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  }
+}

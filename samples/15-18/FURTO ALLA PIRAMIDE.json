@@ -1,0 +1,759 @@
+{
+  "Info": [
+    "15-18 anni",
+    "1",
+    "La storia tratta di una avventura all'interno di una piramide alla scoperta dei simboli della civiltà egizia."
+  ],
+  "Skin": [
+    "chat_1-1612110933196.png",
+    "Angolo in alto a destra",
+    "info_1-1612110935881.png",
+    "Angolo in basso a destra",
+    "skin_testo-1612110943747.png"
+  ],
+  "scena-0": {
+    "Testo scena": [
+      "Ciao, sono Henry Walton, anche detto Indiana Jones!  Vorrei intraprendere un fantastico viaggio alla scoperta dei miti egizi e dei suoi misteri, ma non vorrei tornare a mani vuote! All’interno di una piramide piena di tranelli si trova uno scarabeo d’oro, mi aiuterai in questa avventura? Grandioso!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612110892401.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-1": {
+    "Testo scena": [
+      "Facciamo ricerche, prima di partire per questo viaggio dobbiamo sapere a cosa andiamo incontro!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612110906765.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-0": {
+    "Testo scena": [
+      "I dei egizi potrebbero ribellarsi, molte piramidi sono dedicate al Dio Anubi.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "lupo-1612111035823.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "Ricordi la sua forma? Era per metà umano e per metà?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Lupo"
+        },
+        "Aquila",
+        "Serpente",
+        "Sciacallo"
+      ],
+      "6",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Controlliamo qualche libro di storia, ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "lupo-1612111174812.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#fdeabd",
+          "Tipologia attivita": [
+            "ricordi di cos’era protettore il Dio Anubi?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-2": {
+    "Testo scena": [
+      "Il Dio Lupo, protettore del mondo dei morti e delle mummificazioni.  Spero non ci intralcerà!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111189095.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-1": {
+    "Testo scena": [
+      "Dovremo dirigerci alle Piramidi di Giza, se rispondi velocemente a questa domanda otterrai 2 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111251809.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "Dove si trovano? A 25km da?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Cairo"
+        },
+        "Bani",
+        "Luxor",
+        "Aswan"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-3": {
+    "Testo scena": [
+      "Le piramidi si trovano a circa 25 chilometri dal Cairo!  Menomale che ci abbiamo guardato, sennò avremmo potuto sbagliare zona!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111266261.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-4": {
+    "Testo scena": [
+      "Proviamo ad entrare! Vediamo cosa c’è scritto qui: “Tutto ciò che si trova nella piramide è sacro e mi appartiene, hai osato entrare nella mia dimora ma non ne uscirai mai!”  Forza, è solo una scritta!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111279092.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-2": {
+    "Testo scena": [
+      "Oh no, siamo ad un bivio. Ecco una incisione! Cosa dice:",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "orologio-1612111307576.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "«A volte i numeri sembrano lettere»",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "destra"
+        },
+        "scappa",
+        "sinistra"
+      ],
+      "10",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no! Che succede? Una scossa di terremoto! Dobbiamo stare attenti o rischieremo di morire qui sotto! Ecco un’altra incisione dice:",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "mondo-1612111410446.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "“Segui il tuo cuore”",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "7",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-5": {
+    "Testo scena": [
+      "Io per sicurezza andrei sinistra, dei faraoni non c’è mai da fidarsi!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111279092.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-3": {
+    "Testo scena": [
+      "Ci sono delle chiavi nel muro ed una incisione che dice: ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "caselle-1612111410449.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "“Trova la chiave giusta” ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Esci subito"
+        },
+        "1-2-3",
+        "Eibo cut sii"
+      ],
+      "8",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no! Si è chiusa la porta! Ora come possiamo fare ad entrare? ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "piastrelle-1612111440656.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "“Il numero di mattonelle dovrai trovare, o non potrai proseguire”",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-6": {
+    "Testo scena": [
+      "Ci prova in ogni modo, ma io non demordo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111478788.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-4": {
+    "Testo scena": [
+      "Queste raffigurazioni mi ricordano le illustrazioni che si trovano sul mio manuale di storia antica, l’ho portato! Se rispondi correttamente a questa domanda otterrai 5 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "anubi-1612111527000.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "Cerca questa immagine su Google e trova le differenze, quante sono?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-5": {
+    "Testo scena": [
+      "Quale corridoio potremmo percorrere? Sul muro ci sono delle raffigurazioni, sono schiavi! Se rispondi correttamente a questa domanda otterrai 5 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "gemelli-1612111631635.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "“Se davvero vuoi proseguire, individua i due disegni identici”",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "3-8"
+        },
+        "2-7",
+        "1-5"
+      ],
+      "10",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "La parete sta venendo verso di noi! Indietreggiando proviamo a guardarci attorno.",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "Ci sono delle immagini, togliamo il simbolo non egizio!",
+            "Selezione elemento",
+            [
+              {
+                "Risposta": "simbolo5-1612111666250.png"
+              },
+              "simbolo1-1612111631640.png",
+              "simbolo2-1612111631649.png",
+              "simbolo3-1612111631650.png",
+              "simbolo4-1612111643545.png",
+              "simbolo1-1612111655053.png",
+              "simbolo1-1612111670278.png",
+              "simbolo2-1612111673451.png",
+              "simbolo3-1612111676901.png",
+              "simbolo4-1612111680123.png"
+            ],
+            "9",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-7": {
+    "Testo scena": [
+      "Una parete si è aperta! Vediamo cosa c’è dentro!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111715422.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-8": {
+    "Testo scena": [
+      "È stato tutto troppo tranquillo finora, stiamo concentrati, potremmo trovare dei nemici! Entriamo in silenzio, non facciamoci scoprire proprio ora!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111733317.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-6": {
+    "Testo scena": [
+      "Ci sono dei geroglifici qui, magari si aprirà una porta, c’è scritto “È raffigurato un gatto?”",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "gatto-1612111773146.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#f0c36a",
+    "Tipologia attivita": [
+      "Dimmi, tu vedi almeno gatto tra questi simboli? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "No"
+        },
+        "Sì"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Niente da fare.. ma qui c’è una cartina, ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "strada-1612111798196.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#5b4222",
+          "Tipologia attivita": [
+            "per arrivare allo scarabeo quale percorso è il mio migliore?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "3",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-9": {
+    "Testo scena": [
+      "Sento rumori passi! Com’è possibile?! C’è un piccolo cunicolo qui, proviamo ad entrare!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111733317.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-7": {
+    "Testo scena": [
+      "Delle mummie mi stanno cercando! Ma in questo cunicolo c’è un enigma, vediamo: ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "scarabeo1-1612111877315.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "“La lettera che sta in centro: dadaismo, ebraiche, gabbarci, lacerata, narghilè, obbedivo, quarzite, raccolto”",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Scarabeo"
+        },
+        "Scappa",
+        "Corri",
+        "Niente"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no, non si apre, e le mummie stanno arrivando! Qui c’è un altro enigma spero farà aprire una apertura!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "scarabeo2-1612111906425.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "Cosa c’è scritto?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "3",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-10": {
+    "Testo scena": [
+      "Su questa parete è raffigurato uno scarabeo, forse qui dietro troveremo finalmente lo scarabeo d’oro!  Entriamo in silenzio, non facciamoci scoprire proprio ora!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111919903.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-8": {
+    "Testo scena": [
+      "Ci sono incise queste lettere: Aabceors.  Ordinando le lettere potrebbero formare una parola che apre lo scarabeo! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "sarcofago-1612112036854.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#f0c36a",
+    "Tipologia attivita": [
+      "Che parola potrebbe essere??",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Scarabeo"
+        },
+        "Arabesco",
+        "Aabceors"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Oh no, non riusciremo mai ad arrivare allo scarabeo ora! Ma ci sono alcuni numeri qui sotto, prendiamo una calcolatrice! Se rispondi velocemente a questa domanda otterrai 2 punti bonus!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_backgroung-1612111919903.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e4caa2",
+          "Tipologia attivita": [
+            "123+(200/2)+(55*2)",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "4",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-11": {
+    "Testo scena": [
+      "Lo Scarabeo sulla parete si sta spostando! Ecco qui lo scarabeo d’oro, ce l’abbiamo fatta!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612111919903.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-12": {
+    "Testo scena": [
+      "Missione compiuta, siamo salvi! Il tuo aiuto è stato essenziale!  Alla prossima!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_backgroung-1612112040974.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  }
+}

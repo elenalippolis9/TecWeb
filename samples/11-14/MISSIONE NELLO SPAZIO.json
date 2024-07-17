@@ -1,0 +1,870 @@
+{
+  "Info": [
+    "11-14 anni",
+    "1",
+    "La storia tratta di un viaggio nello spazio per salvare l’equipaggio bloccato scoprendo tantissime cose sui pianeti del Sistema Solare."
+  ],
+  "Skin": [
+    "chat-1612281587017.png",
+    "Angolo in basso a sinistra",
+    "info-1612281589270.png",
+    "Angolo in basso a destra",
+    "skin_testo-1612281583355.png"
+  ],
+  "scena-0": {
+    "Testo scena": [
+      "Ciao, sono Aris e ci troviamo nel 3045. Per tanti anni abbiamo cercato altri pianeti ospitali e altre forme di vita nello spazio. Nel 3020 siamo riusciti a viaggiare su molti esopianeti e pianeti al di fuori del Sistema Solare, ma su Proxima b abbiamo trovato una popolazione chiamata Java, che ha rapito alcuni miei compagni.  Ci aiuterai a salvarli? È un missione top secret, i nostri superiori non possono saperlo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612281577573.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-0": {
+    "Testo scena": [
+      "Sono certo che saprai darci una grande mano in questa missione! Dobbiamo soltanto avviare la navicella, riesci ad aiutarmi? ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "chiavi-1612282359137.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Quale chiave è più adatta alla serratura?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "1"
+        },
+        "2",
+        "3",
+        "4"
+      ],
+      "5",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non abbiamo abbastanza potenza! Dobbiamo inserire il codice di emergenza, ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612282422346.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e2edf2",
+          "Tipologia attivita": [
+            "A+B=C, AxB=C, C-B=B, Ax4=B il codice sono le 4 cifre ABCD in questo ordine!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "8",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-1": {
+    "Testo scena": [
+      "Ce l’abbiamo fatta! Partiamo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "navicella-1612282441399.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-1": {
+    "Testo scena": [
+      "So che ti affascina molto la Terra, ma guarda, la Via Lattea!  Dovremo superarla per raggiungere i nostri compagni, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "vialattea-1612282496859.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "la Via Lattea è:",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "galassia"
+        },
+        "Una regione del sistema solare",
+        "costellazione",
+        "fascia di comete"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-2": {
+    "Testo scena": [
+      "La Via Lattea è una galassia, in particolare, la galassia a cui appartiene il nostro Sistema Solare, ma ce ne sono molte altre!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "vialattea-1612282626528.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-2": {
+    "Testo scena": [
+      "Per evitare di schiantarci, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "mettiamo i pianeti in ordine di grandezza dal più piccolo al più grande! ",
+      "Selezione ordinata",
+      [
+        {
+          "Risposta": ""
+        },
+        "giove-1612308781619.png",
+        "saturno-1612308791981.png",
+        "urano-1612308811829.png",
+        "nettuno-1612308788811.png",
+        "terra-1612308809115.png",
+        "venere-1612308816401.png",
+        "marte-1612308781631.png",
+        "mercurio-1612308781633.png"
+      ],
+      "7",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-3": {
+    "Testo scena": [
+      "La Terra impiega un giorno per compiere un giro su stessa e 1 anno per ruotare attorno al Sole e così fanno tutti i pianeti. Dobbiamo stare attenti ai nostri spostamenti e calcolare dove si trovano i pianeti in questo momento! Questa domanda è davvero difficile, se rispondi correttamente otterrai un punteggio bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "giove-1612282757564.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Quanto dura, allora, la rivoluzione intorno al Sole di Giove in anni terrestri?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "12"
+        },
+        "3",
+        "7",
+        "22"
+      ],
+      "9",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Abbiamo sbagliato i calcoli, stiamo per schiantarci! Dobbiamo inserire un codice di sicurezza per sbloccare il pilota automatico: ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612282796529.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e2edf2",
+          "Tipologia attivita": [
+            "«150/15»",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "4",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-3": {
+    "Testo scena": [
+      "Pericolo schivato! Dobbiamo stare davvero attenti per non rischiare di schiantarci!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612282812445.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-4": {
+    "Testo scena": [
+      "Ci stiamo allontanando sempre di più, dobbiamo stare attenti alla Fascia Principale tra Marte e Giove! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612282812445.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "Da cosa è costituita? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "asteroidi"
+        },
+        "detriti",
+        "stelle",
+        "comete"
+      ],
+      "9",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Gli asteroidi vengono verso di noi, dobbiamo attivare i razzi! Ma per attivarli abbiamo bisogno della chiave d’accesso, è soltanto una cifra! ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "triangolo-1612283528723.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Per disegnare il triangolo più piccolo basta intingere la penna una volta. Quante volte dovrai intingerla per dipingere quello più grande?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "6",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-4": {
+    "Testo scena": [
+      "È davvero difficile non venire colpiti! Nel Sistema Solare se ne trovano altre di aree composte da asteroidi, dobbiamo stare davvero attenti!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612283750569.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-5": {
+    "Testo scena": [
+      "Giove è il pianeta più grande del sistema solare, ma ha notato quella macchia circolare? Spero non sia qualcosa di pericoloso! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "giove-1612283825808.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Cosa può essere?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "tempesta"
+        },
+        "vento",
+        "ciclone",
+        "acqua"
+      ],
+      "7",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-5": {
+    "Testo scena": [
+      "È una tempesta, all’inizio, molti anni fa, questa tempesta era grande come tre Terre, ma ora si sta rimpicciolendo per fortuna!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612283843855.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-6": {
+    "Testo scena": [
+      "L’uomo è sempre alla ricerca di possibili pianeti su cui poter vivere se un giorno la Terra dovesse diventare inospitale.",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612283843855.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-6": {
+    "Testo scena": [
+      "Per questo io e i miei compagni ci siamo spinti fino a Proxima b, ma un pianeta molto più vicino a noi ha presentato acqua allo stato liquido! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "marte-1612283954764.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Ti ricordi di che pianeta si tratta?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Marte"
+        },
+        "Giove",
+        "Saturno",
+        "Nettuno"
+      ],
+      "8",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Dovrei avere un appunto del mio capitano a riguardo! Rispondendo correttamente a questa domanda avrai 2 punti bonus!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "mondo-1612283991402.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#142234",
+          "Tipologia attivita": [
+            "Riesci a decifrarlo?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-7": {
+    "Testo scena": [
+      "Marte ha acqua allo stato liquido ed è stato l’unico fino al 2021, l’unica speranza per un pianeta alternativo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612284030820.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-8": {
+    "Testo scena": [
+      "Io e la mia squadra volevamo saperne di più, ci siamo spinti più lontano di chiunque altro, ma ora non possiamo lasciarli soli!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612284041529.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-7": {
+    "Testo scena": [
+      "I sensori dicono che c’è qualcosa davanti a noi ma non riesco a distinguerli, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "pixel-1612284169444.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "riesci a contare quanti pixel distingui?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "7"
+        },
+        "9",
+        "10",
+        "5"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non riesco ancora a distinguerli, rischiamo di schiantarci! Potenziamo il radar inserendo un codice composto da: ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612284169446.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#e2edf2",
+          "Tipologia attivita": [
+            "la prima cifra sta per il numero di pianeti del sistema solare, la seconda cifra è il numero delle lettere della parola “Terra” e la terza cifra è l’ultima cifra dell’anno in cui stiamo intraprendendo questo viaggio",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-9": {
+    "Testo scena": [
+      "Inizio a vedere qualcosa! È Plutone, il pianeta Nano!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "plutone-1612284178014.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-8": {
+    "Testo scena": [
+      "Plutone! È un pianeta così piccolo ma ha addirittura 5 lune, non sarà facile schivarlo! Aiutati cercando su un altro device o su una enciclopedia!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "plutone-1612284405708.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Quale di questi è un nome di una delle Lune?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Tutte e tre"
+        },
+        "Caronte",
+        "Notte",
+        "Cerbero"
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-10": {
+    "Testo scena": [
+      "Sono Caronte, Notte, Cerbero, Stige, Idra! Una viene verso di noi! Evitiamola!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612284420360.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-9": {
+    "Testo scena": [
+      "Siamo nel punto più lontano, qui ci possono essere tempeste di comete dirette verso il Sole, dobbiamo stare attenti! Sono composte per la maggior parte di sostanze ghiacciate, come biossido di carbonio, metano e acqua, mescolate con aggregati di polvere e vari minerali. Una foto originale ti permette di avere un buon punteggio bonus, stupiscici!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612284420360.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "Sapresti trovare un oggetto composta da uno di questi elementi, scattagli una foto!",
+      "Caricamento file",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-10": {
+    "Testo scena": [
+      "Siamo arrivati su Proxima b, dobbiamo recuperare 13 persone del nostro equipaggio, programmeremo una piccola navicella che atterrerà sul pianeta ma poi dovranno salire da soli, per non rischiare un attacco. ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "proxima-1612284806914.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#000000",
+    "Tipologia attivita": [
+      "Un viaggio di andata e ritorno dura 9 minuti, la navicella reggerà solo per 20 minuti, quante persone sopravvivranno?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-11": {
+    "Testo scena": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Chiudiamo la navicella e ripartiamo per la Terra!",
+      "Selezione elemento",
+      [
+        {
+          "Risposta": "close-1612284845622.png"
+        },
+        "open-1612284848544.png"
+      ],
+      "2",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-11": {
+    "Testo scena": [
+      "Siamo riusciti a salvare tutti i nostri compagni!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612284935225.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-12": {
+    "Testo scena": [
+      "Uno dei nostri compagni ha portato un piccolo batterio che ha recuperato da Proxima b, vediamo cosa riusciamo a scoprire! Guarda, che succede?!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "batteri-1612285950161.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#142234",
+    "Tipologia attivita": [
+      "Ogni minuto si ogni batterio si divide in due, dopo un’ora il vaso è pieno, se i batteri partenza fossero stati due in quanti minuti sarebbe pieno?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "59"
+        },
+        "20",
+        "45",
+        "30"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-12": {
+    "Testo scena": [
+      "Solo 59 minuti, che scoperta grandiosa, questi batteri si sviluppano ad una velocità impressionante! Dobbiamo saperne di più!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612285966495.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-13": {
+    "Testo scena": [
+      "Prima di tornare, vorrei assegnarti una missione, moltissime cose che fanno gli uomini stanno provocando l’aumento delle temperature e andando avanti così non avremo più una Terra su cui vivere e saremmo davvero obbligati a spostarci su un altro pianeta!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612285988939.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "Cosa consigli di migliorare? Scrivici cosa si potrebbe fare per aiutare l’ambiente!",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "10",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-13": {
+    "Testo scena": [
+      "Grazie soldato, sei stato davvero d’aiuto, senza di te non ce l’avremmo mai fatta! Ora so’ su chi contare se ci dovesse servire un aiuto! Alla prossima!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612285988939.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e2edf2",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  }
+}

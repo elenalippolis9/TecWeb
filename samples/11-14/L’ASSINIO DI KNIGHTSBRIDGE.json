@@ -1,0 +1,1007 @@
+{
+  "Info": [
+    "11-14 anni",
+    "1",
+    "La storia tratta di un assassinio che permetterà al ragazzo di fare un viaggio in diversi stati!"
+  ],
+  "Skin": [
+    "chat-1612224304119.png",
+    "Angolo in alto a sinistra",
+    "info-1612224307153.png",
+    "Angolo in basso a destra",
+    "skin_testo-1612224301005.jpg"
+  ],
+  "scena-0": {
+    "Testo scena": [
+      "Ciao, sono Hercule Poirot. Sono stato convocato in Inghilterra, per l’omicidio di un ricco imprenditore, ma sembra che l’assassino non sia un personaggio semplice da acchiappare! La polizia afferma che l’indagato stia cercando di uscire dal Paese, ordiniamo le prove. Iniziamo, porta sempre con te carta e penna!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224294332.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-1": {
+    "Testo scena": [
+      "Dove potrebbe nascondersi l’assassino? Qui ci sono solo luoghi troppo affollati, deve essere scappato! Chiamiamo un taxi!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224603681.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-2": {
+    "Testo scena": [
+      "L’autista del taxi afferma di aver visto un uomo sospetto che voleva dirigersi verso il fiume il più velocemente possibile. Andiamo a vedere dove può essere andato!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224618141.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-0": {
+    "Testo scena": [
+      "Se penso ad un fiume mi viene in mente uno dei simboli di Londra, ma non ricordo il nome da dire al taxista! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "city_londa-1612224657978.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "Lo riconosci? ",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Tower Bridge"
+        },
+        "Waterloo Bridge",
+        "Millennium Bridge",
+        "Westminster Bridge"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Ma dove ci sta portando questo taxista! Forse abbiamo sbagliato nome? ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "tower_bridge-1612224714942.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#fdeabd",
+          "Tipologia attivita": [
+            "Guardiamo su questa cartina turistica!",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-3": {
+    "Testo scena": [
+      "Andiamo al Tower Bridge! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224618141.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-1": {
+    "Testo scena": [
+      "Chissà perché l’assassino si è diretto qui… vuole fuggire in nave! Sarà lì che prenderà un battello per fuggire!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224759312.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "Come si chiama il fiume più importante di Londra?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Tamigi"
+        },
+        "River Brent",
+        "Beck",
+        "Lea"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Partiamo! Ma non sono ancora sicuro della destinazione, proviamo a guardare questa cartina insieme!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "tamigi-1612224782061.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#fdeabd",
+          "Tipologia attivita": [
+            "Come si chiama il fiume principale?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-4": {
+    "Testo scena": [
+      "Facciamo le valige e partiamo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224618141.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-5": {
+    "Testo scena": [
+      "Il taxista è riuscito a descrivere com’era l’uomo che è salito sulla sua auto, questo ci aiuterà a trovarlo! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224618141.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-6": {
+    "Testo scena": [
+      "Alcuni testimoni affermano di aver visto l’uomo a Bologna, in Italia!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "emilia_romagna-1612224877066.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-2": {
+    "Testo scena": [
+      "Eccoci a Bologna! Diamo una occhiata in centro, per orientarci prendiamo come riferimento il monumento principale di Bologna, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "city_bologna-1612224877066.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "qual è?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Torri degli asinelli"
+        },
+        "Basilica San Petronio",
+        "Fontana del Nettuno"
+      ],
+      "7",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Sono confuso..",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "italia-1612224880755.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#fdeabd",
+          "Tipologia attivita": [
+            "In che regione ci troviamo?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-7": {
+    "Testo scena": [
+      "Le Torri degli asinelli, giusto! Chiediamo un po’ in giro se hanno visto l’assassino!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-3": {
+    "Testo scena": [
+      "Guardando a terra ho trovato delle prove riconducibili all’assassino! Rispondendo velocemente a questa domanda otterrai 2 punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "bossolo-1612225030859.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#622645",
+    "Tipologia attivita": [
+      "Di cosa si tratta?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Bossoli"
+        },
+        "Pepite d’oro",
+        "Orecchini",
+        "Denaro"
+      ],
+      "6",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Credo siano bossoli!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612224896387.png",
+          "Video scena": "",
+          "Colore sfondo": "#3c291e",
+          "Tipologia attivita": [
+            "Che arma potrebbe aver utilizzato l’assassino per uccidere la sua vittima?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "4",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-8": {
+    "Testo scena": [
+      "Il colpevole quindi ha utilizzato una pistola! Potrebbe essere molto pericoloso, dobbiamo stare attenti!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-9": {
+    "Testo scena": [
+      "Ho visto l’uomo! Si sta dirigendo verso l’aeroporto! Sbrighiamoci dobbiamo vedere dove sta scappando!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-10": {
+    "Testo scena": [
+      "Alcuni testimoni affermano di aver visto l’uomo ad Amsterdam, Olanda!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "olanda-1612225030871.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-4": {
+    "Testo scena": [
+      "Eccoci ad Amsterdam! Qui le persone viaggiano raramente in auto, preferiscono un altro mezzo di trasporto! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "city_olanda-1612225054023.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "Quale?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Bicicletta"
+        },
+        "Motorino",
+        "Autobus",
+        "Treno"
+      ],
+      "7",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-11": {
+    "Testo scena": [
+      "In Olanda davvero tantissime persone utilizzano le biciclette per spostarsi! Il nostro assassino potrebbe aver rubato una bicicletta e magari si sta dirigendo ad un altro aeroporto!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-5": {
+    "Testo scena": [
+      "Guarda, a terra ho trovato un orologio da polso! Ma al posto dei numeri ha le lettere, girandolo vedo una somma. Rispondendo velocemente a questa domanda otterrai 5 punti bonus! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "orologio1-1612225209036.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9d9d9",
+    "Tipologia attivita": [
+      "Dobbiamo cercare una parola?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Russia"
+        },
+        "Olanda",
+        "Italia",
+        "Polonia"
+      ],
+      "9",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non sono sicuro.. Questo può essere un indizio davvero importante!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "orologio2-1612225209037.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#d9d9d9",
+          "Tipologia attivita": [
+            "C’è una piccola bandierina in mezzo al quadrante, di che stato è?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "6",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-12": {
+    "Testo scena": [
+      "Russia! Dobbiamo correre!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-13": {
+    "Testo scena": [
+      "Testimoni dicono di averlo visto in aeroporto! Di nuovo?! Muoviamoci dobbiamo riuscire ad acciuffarlo!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612224896387.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-14": {
+    "Testo scena": [
+      "Il nostro assassino è stato avvistato a Mosca, Russia! Sbrighiamoci!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "russia-1612225209054.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-6": {
+    "Testo scena": [
+      "La Russia è uno stato davvero vasto, ma sono certo che troveremo il nostro sospettato!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225216283.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "La Russia è più grande dell’America?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Sì"
+        },
+        "No"
+      ],
+      "8",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-15": {
+    "Testo scena": [
+      "La Russia è più ampia degli Stati Uniti d’America, sta diventando davvero difficile questa indagine!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225216283.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-7": {
+    "Testo scena": [
+      "Chiediamo informazioni in un bar! Rispondendo correttamente a questa domanda otterrai dei punti bonus!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "bicchieri-1612118756991.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#e4caa2",
+    "Tipologia attivita": [
+      "Per avere informazioni dobbiamo aiutarlo a contare quanti bicchieri dovremo spostare per avere questo risultato sotto?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "1"
+        },
+        "2",
+        "3",
+        "4"
+      ],
+      "6",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Non vuole dirci nulla.. Mi sembra molto sospetto, poggiato sul bancone ho visto un biglietto con scritto «Mi dirigo al 30x15».  Potrebbe essere un indizio, come un numero di un battello. ",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "skin_background-1612225216283.png",
+          "Video scena": "",
+          "Colore sfondo": "#3c291e",
+          "Tipologia attivita": [
+            "Qual è il risultato?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "3",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-16": {
+    "Testo scena": [
+      "Grazie al barista ora sappiamo che il nostro sospettato sta fuggendo in nave! Sbrighiamoci!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225216283.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-17": {
+    "Testo scena": [
+      "Maledizione, è riuscito a fuggirci di nuovo! Andiamo a chiedere dove era diretta questo nave!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225216283.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-18": {
+    "Testo scena": [
+      "È scappato in Polonia! Continua a sfuggirci, dobbiamo essere più furbi di lui!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "polonia-1612225402338.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-8": {
+    "Testo scena": [
+      "La Polonia è stata sede di eventi spiacevoli nella storia, in particolare in un campo di concentramento, sembra che il nostro fuggitivo sia diretto lì!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "city_dachau-1612225558987.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#fdeabd",
+    "Tipologia attivita": [
+      "Ricordi dove si trova?",
+      "Risposta multipla",
+      [
+        {
+          "Risposta": "Dachau"
+        },
+        "Wittmoor",
+        "Breitenau",
+        "Eutin"
+      ],
+      "8",
+      {
+        "Attività errore": {
+          "Testo scena": [
+            "Dachau! Tutti questi viaggi mi stanno indebolendo, proviamo a riprendere forze con un po’ di cioccolato!",
+            "",
+            "",
+            ""
+          ],
+          "Audio scena": "",
+          "Sfondo scena": "cioccolato-1612225558992.jpg",
+          "Video scena": "",
+          "Colore sfondo": "#d9d9d9",
+          "Tipologia attivita": [
+            "Eccone una tavoletta qual è il numero minimo di volte che dovrai romperla per separare ogni quadretto?",
+            "Testo libero",
+            [
+              {
+                "Risposta": ""
+              }
+            ],
+            "5",
+            {
+              "Attività errore": {}
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "scena-19": {
+    "Testo scena": [
+      "Muoviamoci! Dachau non è lontana!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225216283.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-9": {
+    "Testo scena": [
+      "Per raggiungere l’assassino dovrò essere invisibile e fare la strada più lunga, ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "strada-1612119050601.jpg",
+    "Video scena": "",
+    "Colore sfondo": "#d9d9d9",
+    "Tipologia attivita": [
+      "quale strada è migliore?",
+      "Testo libero",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "5",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "attività-10": {
+    "Testo scena": [
+      "Oh no sta scappando! Devo far salire il ponte così non potrà più fuggire! ",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "",
+    "Video scena": "",
+    "Colore sfondo": "#d9d9d9",
+    "Tipologia attivita": [
+      "Premi il tasto corretto!",
+      "Selezione elemento",
+      [
+        {
+          "Risposta": "up-1612225559003.png"
+        },
+        "down-1612225559006.png"
+      ],
+      "3",
+      {
+        "Attività errore": {}
+      }
+    ]
+  },
+  "scena-20": {
+    "Testo scena": [
+      "Lo abbiamo catturato! Abbiamo visitato tantissimi paesi per riuscirci! Grazie del tuo aiuto!  Alla prossima!",
+      "",
+      "",
+      ""
+    ],
+    "Audio scena": "",
+    "Sfondo scena": "skin_background-1612225588177.png",
+    "Video scena": "",
+    "Colore sfondo": "#3c291e",
+    "Tipologia attivita": [
+      "",
+      "",
+      [
+        {
+          "Risposta": ""
+        }
+      ],
+      "",
+      {
+        "Attività errore": {}
+      }
+    ]
+  }
+}
