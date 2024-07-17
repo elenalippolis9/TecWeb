@@ -9,11 +9,8 @@
   FAQ:                                                                                                                                                                                                                                     
   https://iol.unibo.it/course/view.php?id=51765 
          
-  Link presentazione del progetto:                                                                                            
-  https://iol.unibo.it/pluginfile.php/616024/mod_resource/content/0/25-Progetto2020.pdf   
-  https://virtuale.unibo.it/pluginfile.php/463513/mod_resource/content/0/25-Progetto2020.pdf (link aggiornato)
-                                                                                                                             
-  Authors: Raffaele D. - Ludovica L. - Alexa F. - Elena L.
+                                                                                                                        
+  Authors: Raffaele D. - Alexa F. - Elena L.
   
 -------------------------------------------------------------------------------------------------------------------
   
